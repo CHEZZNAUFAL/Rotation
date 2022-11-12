@@ -1,5 +1,3 @@
-
-
 botName = ""
 startTime = 0
 upTime = os.time()
