@@ -1,4 +1,4 @@
-botName = getBot().name
+botName = ""
 startTime = 0
 upTime = os.time()
 
@@ -347,6 +347,7 @@ if math.floor(getBot().x / 32) ~= x or math.floor(getBot().y / 32) ~= y then
 end
 
 function main()
+	botName = getBot().name
 	for index = 1, rawlen(init(botName).farmWorldName) do
 		local farmWorldName = init(botName).farmWorldName
 		local farmDoorID = init(botName).farmDoorID
