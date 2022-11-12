@@ -1,4 +1,4 @@
-botName = ""
+botName = getBot().name
 startTime = 0
 upTime = os.time()
 
@@ -627,7 +627,6 @@ if (findBot() == 0) then
 	return false
 end
 
-botName = getBot().name
 
 local database = getContentRequest("https://raw.githubusercontent.com/CHEZZNAUFAL/Rotation/main/akun.lua")
 
