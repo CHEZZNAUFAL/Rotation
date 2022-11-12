@@ -616,6 +616,17 @@ function main()
 	end
 end
 
+if (findBot() == 0) then
+	for key, value in pairs(botList) do
+		addBot(key, value.password)
+		while (getBot().status ~= "online") do
+			sleep(loginDelay)
+		end
+		sleep(loginDelay)
+	end
+	return false
+end
+
 botName = getBot().name
 
 local database = getContentRequest("https://raw.githubusercontent.com/CHEZZNAUFAL/Rotation/main/akun.lua")
