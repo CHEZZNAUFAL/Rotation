@@ -8,5 +8,6 @@ return{
   "ahsansangatpegal",
   "Muhikky",
   "LockOwner001",
-  "PETRI40"
+  "PETRI40",
+  "HRTYKAX"
   }
