@@ -1,4 +1,4 @@
-return {
+return({
   "HELLRAME21",
   "AtseWinata",
   "iModerna",
@@ -14,4 +14,4 @@ return {
   "deestay",
   "Caplaymann",
   "HAFIYE1"
-}
+})
