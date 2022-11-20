@@ -13,5 +13,6 @@ return({
   "banana1133",
   "deestay",
   "Caplaymann",
-  "HAFIYE1"
+  "HAFIYE1",
+  "jukecox5"
 })
