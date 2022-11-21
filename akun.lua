@@ -14,5 +14,6 @@ return{
   "deestay",
   "Caplaymann",
   "HAFIYE1",
-  "jukecox5"
+  "jukecox5",
+  "Fuxuk"
 }
