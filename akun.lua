@@ -18,5 +18,6 @@ return{
   "Fuxuk",
   "Lesince",
   "Akunsavelockakbar",
-  "PiYDStore"
+  "PiYDStore",
+  "BOTGEISv510"
 }
